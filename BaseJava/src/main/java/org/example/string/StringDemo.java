@@ -69,4 +69,8 @@ public class StringDemo {
     private static boolean isEmpty(CharSequence cs) {
         return cs == null || cs.length() == 0;
     }
+
+    /**
+     * String.intern()
+     */
 }
